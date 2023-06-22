@@ -1,0 +1,1414 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* =======================
+navbar part start
+========================= */
+a{
+ text-decoration: none;
+}
+#banner{
+   position: absolute;
+   width: 100%;
+   background-color: rgba(80, 80, 80, 0.815);
+   z-index: 1;
+}
+.line{
+   position: absolute;
+   top: 55%;
+   left: 0;
+   transform: translateY(-50%);
+    height: 2px;
+    width: 100%;
+    background-color: rgba(229, 229, 229,.5);
+    
+}
+.container{
+    width: 1320px;
+    margin: auto;
+    position: relative;
+    
+}
+ul{
+    list-style: none;
+}
+#banner .container .main{
+    display: flex;
+    align-items: center;
+}
+#banner .container .logo{
+    width: 50%;
+    padding: 25px 0;
+    
+}
+#banner .container .menu{
+    display: flex;
+    justify-content: end;
+    width: 50%;
+}
+
+
+#banner .menu .main{
+    display: flex;
+   justify-content: end;
+    align-items: center;
+
+}
+#banner .menu .main .text{
+    position: relative;
+    padding: 0 20px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 400px;
+    color: white;
+    border-right: 1px solid rgba(229, 229, 229,.5);
+}
+#banner .menu .main .text:last-child{
+    border-right: 0;
+}
+#banner .menu .main .text p i {
+    position: absolute;
+    top: 9px;
+    right: 12px;
+    font-size: 14px;
+} 
+
+#banner .menubar{
+    width: 50%;
+    display: flex;
+    padding: 20px 0;
+    position: relative;
+  
+}
+
+
+ 
+#banner .icons{
+    width: 50%;
+    text-align: right;
+
+}
+#banner .menubar ul{
+   
+    display: flex;
+    justify-content: right;
+
+}
+#banner .menubar ul li{
+    margin-right: 20px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 400px;
+    color: white;
+    position: relative;
+    margin-right: 50px;
+    padding-bottom: 20px;
+}
+#banner fot-hader{
+    padding-top: 30 px;
+}
+#banner .menubar ul li i{
+    position: absolute;
+    top: 7px;
+    padding-top: 3px;
+    padding-left: 0;
+    font-size: 16px;
+    
+   
+}
+
+
+#banner .icons i{
+    font-size: 20px;
+    color: white;
+    margin-right: 20px;
+}
+
+#banner .secondpart i{
+    font-size: 30px;
+    color: white;
+    margin-right: 20px;
+}
+.fas fa-search {
+margin-left: 30px;
+}
+#banner .icons .src{
+    margin-left: 35px;
+}
+/* =======================
+navbar part end
+========================= */
+/* =======================
+picture part start
+========================= */
+
+#picture{
+  position: relative;
+  padding: 250px 0;
+    
+ background: url(../images/banner.jpg) no-repeat center;
+  background-size: cover;
+}
+#picture h1{
+    
+    font-family: 'Philosopher', sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    color: white;
+    width: 600px;
+    margin-top: 180px;
+}
+#picture .container p{
+    
+    font-family: 'DM Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: white;
+    width: 600px;
+    position: absolute;
+    padding-top: 15px;
+}
+#picture .container a{
+    position: absolute;
+    
+    font-family: 'DM Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+    background-color: #1893B5 ;
+    display: inline-block;
+    margin-top: 110px;
+    padding: 15px 25px;
+    border-radius: 60px;
+}
+#picture .container .rad{
+    position: absolute;
+    top: 20%;
+    right: 30%;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+   border: 1px solid #1893B5;
+   justify-content: center
+   
+}
+#picture .container .rad1{
+    position: absolute;
+    top: 10%;
+    right: 10%;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+   background-color: #1893B5;
+}
+#picture .container .rad1 i {
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    top: 26px;
+    right: 25px;
+    transform: translateY(1-50%);
+}
+#picture .container .rad2 {
+    position: absolute;
+    top: -50%;
+    right: 15%;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 1px solid #1893B5;
+    justify-content: center;
+}
+#picture .container .icon1  {
+    position: absolute;
+    top: 205%;
+    right: 150px;
+}
+#picture .container .icon2{
+    position: absolute;
+    top: -155%;
+    right: 62%;
+}
+#picture .container .icon3{
+    
+    display: inline-block;
+    position: absolute;
+    top: 280%;
+    right: 55%;
+}
+#picture .container .icon4{
+    display: inline-block;
+    position: absolute;
+    top: -125%;
+    right: 90%;
+}
+#picture .container .icon5{
+    display: inline-block;
+    position: absolute;
+    top: 300%;
+    right: 90%;
+}
+/* =======================
+picture part end
+========================= */
+/* =======================
+about us part start
+========================= */
+#aboutus{
+    width: 100%;
+    position: relative;
+   
+}
+#aboutus .main{
+    display: flex;
+}
+#aboutus .main .pic{  
+    width: 50%;
+    margin: 80px 0px;
+    
+
+}
+#aboutus .main .img1{  
+    block-size: 380px;
+    
+}
+
+
+#aboutus .img2{
+    
+    block-size: 305px;
+    position: absolute;
+    top: 228px;
+    right: 53%;
+}
+#aboutus .img3{
+    position: absolute;
+    top: 518px;
+    right: 64%;
+    z-index: -1;
+}
+
+
+
+
+#aboutus .main .tex{
+    
+    width: 50%;
+    
+}
+.rd11{
+    position: relative;
+}
+.rad12{
+    width: 90px;
+    height: 90px;
+    border: 1px solid #1893B5;
+    border-radius: 50%;
+    position: absolute;
+    top: 100px;
+    right: 60%;
+   
+   
+    justify-content: center;
+}
+.rad123{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: #1893B5;
+    position: absolute;
+    top: 45px;
+    right: 10px;
+    transform: translateY(-50%);
+}
+.rad123 i {
+    font-size: 27px;
+    color: white;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+#aboutus .tex .title{
+    position: relative;
+    margin-top: 70px;
+}
+#aboutus .tex .title h3{
+    
+    font-family: 'DM Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    color: #1893B5;
+
+}
+#aboutus .tex .title .line-1{
+    width: 54px;
+    height: 2px;
+    background-color: black;
+}
+#aboutus .tex .title .round{
+    width: 10px;
+    height: 10px;
+    border: 2px solid black;
+    border-radius: 50%;
+    position: absolute;
+    top: 26px;
+    right: 626px;
+    background-color: white;
+}
+#aboutus .tex .text1 h2{
+
+    font-family: 'Philosopher', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    color: #1b212f;
+    width: 650px;
+    line-height: 1.4;
+    margin: 20px 0px;
+}
+#aboutus .tex .text1 p{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.8;
+    color: rgba(0, 0, 0, 0.596);
+    width: 590px;
+    
+}
+#aboutus .tex .list  li{
+    font-family: 'Philosopher', sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    color: #1b212f;
+    width: 650px;
+    line-height: 1.4;
+    margin: 20px 20px;
+}
+#aboutus .tex .list {
+position: relative;
+}
+#aboutus .tex .list .img1-i{
+    position: absolute;
+    top: 10px;
+    right: 98%;
+}
+#aboutus .tex .list .image2{
+    position: absolute;
+    top: 60px;
+    right: 98%;
+}
+#aboutus .tex .list .image3{
+    position: absolute;
+    top: 110px;
+    right: 98%;
+}
+#aboutus .tex a{
+    position: absolute;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+    background-color: #1893B5;
+    display: inline-block;
+    margin-top: 240px;
+    padding: 15px 25px;
+    border-radius: 60px;
+}
+    
+/* =======================
+paramiters part start
+========================= */
+#paramiters .title {
+    text-align: center;
+}
+#paramiters .title h2{
+    
+    font-family: 'Philosopher', sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    color: black;
+    margin-top: 200px;
+    
+}
+#paramiters .title h2 span{
+    color: #1893B5;
+    border-bottom: 1px solid #1893B5;
+}
+
+
+#paramiters .brand{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+#paramiters .brand img{
+    filter: grayscale(100%);
+    transition: 0.4s;
+}
+#paramiters .brand img:hover{
+    filter: grayscale(0);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* =======================
+paramiters part start
+========================= */
+
+#our-services{
+    background-color: hsla(193, 77%, 40%, 0.041);
+    height: auto;
+
+}
+#our-services .title{
+    position: relative;
+    margin-top: 70px;
+    text-align: center;
+}
+#our-services .main{
+    text-align: center;
+    
+}
+#our-services .title h3{
+    
+    font-family: 'DM Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    color: #1893B5;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+
+
+
+#our-services .title .line-1{
+    width: 54px;
+    height: 2px;
+    background-color: black;
+    position: absolute;
+    top: 40px;
+    right: 50%;
+}
+#our-services .title .round{
+    width: 10px;
+    height: 10px;
+    border: 2px solid black;
+    border-radius: 50%;
+    position: absolute;
+    top: 34px;
+    right: 680px;
+    background-color: white;
+}
+#our-services .main h2{
+    
+    font-family: 'Philosopher', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    color: black;
+    margin-top: 35px;
+   
+}
+#our-services .business{
+    width: 24%;
+    min-height: 200px;
+    background-color: white;
+    margin-top: 20px;
+    border-radius: 3%;
+    transition: 0.4s;
+}
+#our-services .all-eight-box{
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+#our-services .business{
+    text-align: center;
+}
+#our-services .business img{
+    color: #1893B5;
+    transition: 0.4s;
+}
+#our-services .business img:hover{
+    color: white;
+}
+#our-services .business h3{
+    font-family: 'Philosopher', sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    transition: 0.4s;
+}
+
+
+
+#our-services .business i{
+    font-size: auto;
+    color: white;
+    background-color: #1893B5;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    align-items: center;
+    line-height: 50px;
+    transition: 0.4s;
+    z-index: -1px;
+}
+#our-services .business:hover{
+    background-color: #1893B5;
+}
+#our-services .business i:hover{
+    background-color: white;
+    color: #1893B5;
+    
+
+}
+#our-services .business h3:hover{
+    color: white;
+}
+#our-services .butone a{
+    color: rgb(20, 14, 14);
+    font-family: 'DM Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    position: absolute;
+   top:100%;
+    left: 50%;
+    display: inline-block;
+    border-radius: 100px;
+    background-color: #1893B5;
+    padding: 12px 8px;
+    text-align: center;
+}
+/* =======================
+paramiters part end
+========================= */
+/* =======================
+Choose part start
+========================= */
+#choose-part .main{
+    margin-top: 100px;
+    display: flex;
+}
+#choose-part .main .left{
+    width: 50%;
+    
+}
+
+    
+
+#choose-part .title h3{
+    
+    font-family: 'DM Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    color: #1893B5;
+    margin-bottom: 15px;
+}
+
+
+
+
+#choose-part .title .line-1{
+    width: 54px;
+    height: 2px;
+    background-color: black;
+    position: absolute;
+    top: 40px;
+    left: 0;
+}
+#choose-part .title .round{
+    width: 10px;
+    height: 10px;
+    border: 2px solid black;
+    border-radius: 50%;
+    position: absolute;
+    top: 34px;
+    left: 15px;
+    background-color: white;
+}
+#choose-part .main .left h2{
+    font-family: 'Philosopher', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    color: #1b212f;
+    margin-top: 20px;
+    
+
+}
+#choose-part .main .left p{
+font-family: 'DM Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #1b212f;
+    margin-top: 20px;
+    line-height: 1.8;
+    width: 515px;
+}
+
+#choose-part .main .left .box{
+ width: 80%;
+ margin: 20px;
+ -webkit-box-shadow: 0px 0px 0px 15px rgba(250,250,250,1);
+-moz-box-shadow: 0px 0px 0px 15px rgba(250,250,250,1);
+box-shadow: 0px 0px 0px 15px rgba(250,250,250,1);
+padding: 10px;
+}
+#choose-part .main .left .box h4{
+    font-family: 'Philosopher', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #1b212f;
+    margin-top: 20px;
+}
+#choose-part .main .left .box p{
+font-family: 'DM Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #1b212f;
+    margin-top: 20px;
+    line-height: 1.8;
+    width: 515px;
+    position: relative;
+}
+
+
+#choose-part .main .left .box p i{
+    position: absolute;
+    top: -36px;
+    right: 0;
+    color: #1893B5;
+}
+
+
+
+
+#choose-part .main .right{
+    width: 50%;
+    height: 300px;
+    background-color: tomato;
+
+
+}
+/* =======================
+Choose part end
+========================= */
+/* =======================
+project part start
+========================= */
+#project {
+    margin-top: 100px;
+    
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+#project .title h3{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    color: #1893B5;
+    margin-bottom: 15px;
+    text-align: center;
+    position: relative;
+}
+#project .title .line{
+    width: 40px;
+    height: 2px;
+    background-color: #1b212f;
+    position: absolute;
+    top: 39px;
+    left: 48%;
+    
+}
+#project .title .line .round{
+    width: 10px;
+    height: 10px;
+    border: 2px solid black;
+    border-radius: 50%;
+    position: absolute;
+    top: -6px;
+    left: 12px;
+    background-color: white;
+}
+#project .container .text{
+    width: 622px;
+   
+    position: absolute;
+    top: 40px;
+    left: 350px;
+}
+
+
+
+#project .container h2{
+    font-family: 'Philosopher', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    color: #1b212f;
+    margin-top: 20px;
+    text-align: center;
+    line-height: 1.4;
+    
+}
+#project .container .main{
+    width: 65%;
+    
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    top: 170px;
+    right: 15%;
+}
+
+
+#project .container .main .box{
+
+   border: 1px solid #1b212f;
+   text-align: center;
+   transform: 0.4s;
+   padding: 15px;
+   
+}
+#project .container .main .box span{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    color: #1b212f;
+    
+}
+
+#project .container .main .box:hover{
+ background-color: #1893B5;
+   border: #1893B5;
+    
+}
+
+/* =======================
+project part end
+========================= */
+
+
+/* =======================
+project-pic part start
+========================= */
+#project-pic{
+    position: relative;
+}
+#project-pic .main{
+   display: flex;
+    
+    margin-top: 220px;
+}
+
+   
+
+#project-pic .left .pic-a{
+    margin-top: 10px;
+}
+#project-pic .pic-b{
+    margin-left: 15px;
+    margin-bottom: 15px;
+    margin-right: 15px;
+}
+#project-pic .pic-c{
+    margin-left: 15px;
+}
+#project-pic .left .pic{
+   transition: 0.4s;
+}
+#project-pic .left .pic:hover{
+    background-color: aquamarine;
+}
+
+/* =======================
+project-pic part end
+========================= */
+/* =======================
+counter part start
+========================= */
+#counter {
+    height: auto;
+    background: url(../images/counter-bg-1-1.jpg);
+    height: 300px;
+    background-size: cover;background-size: cover;
+    margin: 120px 0;
+    
+
+}
+#counter .main{
+    display: flex;
+    
+
+}
+
+#counter .main .box{
+    width: 23%;
+   
+    margin: 75px 0;
+    text-align: center;
+    
+}
+#counter .main .box h2{
+    font-family: 'Philosopher', sans-serif;
+    font-size: 72px;
+    font-weight: 700;
+    color: white;
+
+}
+#counter .main .box h4{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+
+}
+
+/* =======================
+counter part end
+========================= */
+/* =======================
+work part strat
+========================= */
+#work {
+    position: relative;
+}
+
+#work .title h3{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    color: #1893B5;
+    margin-bottom: 15px;
+    text-align: center;
+    position: relative;
+}
+#work .title .line{
+    width: 40px;
+    height: 2px;
+    background-color: #1b212f;
+    position: absolute;
+    top: 39px;
+    left: 48%;
+    
+}
+#work .title .line .round{
+    width: 10px;
+    height: 10px;
+    border: 2px solid black;
+    border-radius: 50%;
+    position: absolute;
+    top: -6px;
+    left: 12px;
+    background-color: white;
+}
+#work .text h2{
+    font-family: 'Philosopher', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    color: #1b212f;
+    text-align: center;
+}
+#work .main{
+    display: flex;
+    justify-content: space-between;
+}
+#work .main .round-a{
+    height: 160px;
+    width: 160px;
+    border:  dashed rgba(27, 33, 47, 0.082);
+    border-radius: 50%;
+    margin: 113px 0;
+    position: relative;
+}
+#work .main .round-a .boxround{
+    height: 30px;
+    width: 30px;
+    background-color: #1893B5;
+    border-radius: 50%;
+    z-index: 1;
+    position: absolute;
+    top: 30px;
+    left: -5px;
+}
+
+
+#work .main .round-a .boxround p{
+   text-align: center;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    position: absolute;
+    top: 4px;
+    left: 7px;
+}
+
+
+#work .main .round-a .round-ab{
+width: 140px;
+height: 140px;
+background-color: #1b212f;
+border-radius: 50%;
+position: absolute;
+top: 10px;
+left: 10px;
+position: relative;
+}
+#work .main .round-a .round-ab .round-ac{
+    height: 50px;
+    width: 50px;
+    border: 3px solid white;
+    border-radius: 50%;
+    position: absolute;
+    top: 30px;
+    left: 46px;
+}
+#work .main .round-a .round-ab .round-ac i{
+    color: white;
+    font-size: 20px;
+    height: 50px;
+    position: absolute;
+    top: 30%;
+    left: 45%;
+}
+    
+#work .main .round-a .round-ab p{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+    color: white;
+    position: absolute;
+    top: 85px;
+    left: 32px;
+    
+}
+#work .main .round-a .round-ab span{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+    color: white;
+    position: absolute;
+    top: 90px;
+    left: 55px;
+}
+
+#work img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    top: 140px;
+    left: 54px;
+}
+#work .one{
+    position: absolute;
+    top: 140px;
+    left: 48%;
+}
+#work .two{
+    position: absolute;
+    top: 74%;
+    left: 26%;
+}
+
+#work .three{
+    position: absolute;
+    top: 74%;
+    left: 72%;
+}
+
+/* =======================
+work part end
+========================= */
+/* =======================
+testimunia part start
+========================= */
+#testimunia{
+    margin-top: 50px;
+}
+#testimunia .main{
+    display: flex;
+}
+#testimunia .left{
+    width: 50%;
+    z-index: 1;
+
+}
+#testimunia .left img{
+    width: 100%;
+}
+#testimunia .right{
+    width: 50%;
+}
+#testimunia .title{
+    margin-top: 113px;
+    margin-left: 150px;
+}
+#testimunia .title .line{
+    width: 60px;
+    height: 2px;
+    background-color: #1b212f;
+    position: absolute;
+    top: 150px;
+    left: 61%;
+    
+}
+#testimunia .title .line .round{
+    width: 10px;
+    height: 10px;
+    border: 2px solid black;
+    border-radius: 50%;
+    position: absolute;
+    top: -6px;
+    left: 22px;
+    background-color: white;
+}
+#testimunia .title h2{
+    font-family: 'Philosopher', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    color: #1b212f;
+   
+
+}
+#testimunia .title h3{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    color: #1893B5;
+    margin-bottom: 15px;
+    
+    text-align: center;
+    position: relative;
+    top: 0%;
+    left: -38%;
+}
+#testimunia .title p{
+   
+    
+    margin-top: 7px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.8;
+    color: #505050;
+}
+#testimunia .right .reviw{
+    position: relative;
+    width: 100%;
+
+ margin-top: 80px;
+ -webkit-box-shadow: 0px 0px 0px 15px rgba(250,250,250,1);
+-moz-box-shadow: 0px 0px 0px 15px rgba(250,250,250,1);
+box-shadow: 0px 0px 0px 15px rgba(250,250,250,1);
+padding: 30px;
+
+}
+#testimunia .right .reviw h2{
+font-family: 'Philosopher', sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+    color: #1b212f;
+    margin-left: 38px;
+}
+#testimunia .right .reviw h3{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+#testimunia .right .reviw p{
+    border-left: 2px solid #1893B5;
+    line-height: 32px;
+    font-style: italic;
+    font-size: 18px;
+    margin-bottom: 0;
+    padding-left: 30px;
+    margin-top: 20px;
+    font-family: 'DM Sans', sans-serif;
+    width: 526px;
+    margin-left: 45px;
+}
+#testimunia .right .reviw i{
+    color: gold;
+}
+#testimunia .right .reviw  .one{
+    color: #E7E8E9;
+}
+#testimunia .right .reviw .tara{
+    position: absolute;
+    top: 60px;
+    right: 60px;
+}
+/* =======================
+testimunia part end
+========================= */
+/* =======================
+want part Start
+========================= */
+#want{
+    background: url(../images/cta-bg-1-1.jpg);
+    background-size: cover;
+    height: 525px;
+    margin-top: 120px;
+}
+#want h2{
+    font-size: 72px;
+    font-weight: 700;
+    color: #E7E8E9;
+    text-align: center;
+    width: 900px;
+    margin-left: 180px;
+    padding: 85px 0;
+    margin-bottom: 180px;
+}
+#want a{
+    padding: 15px 40px;
+    border: 1px solid #1b212f;
+    background-color: #1893B5;
+    border-radius: 22px;
+    position: absolute;
+    bottom: -60px;
+    left: 42%;
+   
+}
+/* =======================
+want part end
+========================= */
+/* =======================
+latest part start
+========================= */
+#latest {
+    position: relative;
+    margin-top: 125px;
+    height: 800px;
+}
+
+#latest .title h3{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    color: #1893B5;
+    margin-bottom: 15px;
+    text-align: center;
+    position: relative;
+}
+#latest .title .line{
+    width: 40px;
+    height: 2px;
+    background-color: #1b212f;
+    position: absolute;
+    top: 39px;
+    left: 48%;
+    
+}
+#latest .title .line .round{
+    width: 10px;
+    height: 10px;
+    border: 2px solid black;
+    border-radius: 50%;
+    position: absolute;
+    top: -6px;
+    left: 12px;
+    background-color: white;
+}
+#latest .text h2{
+    font-family: 'Philosopher', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    color: #1b212f;
+    text-align: center;
+}
+
+#latest .images{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 55px;
+    position: relative;
+}
+#latest .images img{
+    width: 32%;
+    position: relative;
+}
+#latest .small  .one{
+    position: absolute;
+    top: 54%;
+    left: 35px;
+}
+   
+
+#latest .small .two{
+    position: absolute;
+    top: 54%;
+    left: 36%;
+}
+#latest .small .three{
+    position: absolute;
+    top: 54%;
+    left: 70%;
+}
+#latest .main{
+    display: flex;
+    justify-content: space-between;
+}
+#latest .main .left{
+    width: 32%;
+    height: 300px;
+    
+    border: 1px solid rgba(27, 33, 47, 0.493);
+    border-top: 0;
+} 
+#latest .main .left h2{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #1893B5;
+    margin-top: 60px;
+    margin-left: 15px;
+}  
+
+#latest .main .middle{
+    width: 32%;
+    height: 300px;
+    border: 1px solid rgba(27, 33, 47, 0.4);
+    border-top: 0;
+}   
+#latest .main .right{
+    width: 32%;
+    height: 300px;
+    border: 1px solid rgba(27, 33, 47, 0.4);
+    border-top: 0;
+} 
+
+
+
+/* =======================
+latest part end
+========================= */
+/* =======================
+foter part start
+========================= */
+#footer{
+    margin-top: 100px;
+    }
+    #footer .main{
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 50px;
+    }
+    #footer .main .part-one{
+        width: 38%;
+    }
+    #footer .main .part-one .main-two{
+        width: 35%;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    #footer .main .part-one p{
+        font-family: 'DM Sans', sans-serif;
+        font-weight: 400;
+        color: #505050;
+        
+        font-size: 16px;
+        width: 80%;
+        padding: 30px 0;
+        line-height: 1.4;
+    }
+    
+    
+    
+    
+    #footer .main .part-one .facebook{
+        height: 30px;
+        width: 30px;
+        border-radius: 50%;
+        background-color: #50505021;
+        position: relative;
+    }
+    #footer .main .part-one i{
+        color: #1CB9C8;
+        position: absolute;
+        top: 25%;
+        left: 50%;
+        transform: translateX(-50%);
+    
+    }
+    #footer .main .part-one i:hover{
+        color: white;
+    }
+    #footer .main .part-one .facebook:hover{
+        background-color: #1CB9C8;
+        border: #1CB9C8;
+        color: white;
+    
+    
+    }
+    #footer .main .part-two{
+        width: 20%;
+        margin-left: 20px;
+    }
+    #footer .main  h2{
+    
+    font-family: 'Philosopher', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    color: #1B212F;
+    
+    }
+    #footer .main ul li{
+    
+        font-family: 'DM Sans', sans-serif;
+        font-weight: 400;
+        color: #505050;
+        
+        font-size: 16px;
+        display: list-item;
+        margin-top: 15px;
+        
+        
+        
+    }
+    #footer .main  ul li i{
+        margin-right: 10px;
+        font-size: 10px;
+    }
+    #footer .main .part-three{
+        width: 20%;
+    }
+    #footer .main .part-four{
+        width: 20%;
+    }
+    
+    #footer .line{
+        width: 100%;
+        height: 1px;
+        background: rgb(196, 196, 196);
+    }
+    #footer .line h5{
+        font-family: 'DM Sans', sans-serif;
+        font-weight: 400;
+        color: #505050;
+        padding:30px;
+        text-align: center;
+    }
+    #footer .line span{
+        font-family: 'DM Sans', sans-serif;
+        font-weight: 400;
+        color: #1CB9C8;
+        text-align: center;
+    }
+    
+/* =======================
+foter part end
+========================= */
